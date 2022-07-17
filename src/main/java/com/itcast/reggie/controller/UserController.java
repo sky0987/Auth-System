@@ -43,7 +43,7 @@ public class UserController {
         }
         System.out.println(code);
 
-        //SendSms.sendMsg(code,phone);
+        SendSms.sendMsg(code,phone);
 
         //将生成的验证码保存到session中
         session.setAttribute("code",code);
