@@ -7,7 +7,9 @@ import com.itcast.reggie.dto.SetmealDto;
 import com.itcast.reggie.entity.Category;
 import com.itcast.reggie.entity.Dish;
 import com.itcast.reggie.entity.Setmeal;
+import com.itcast.reggie.entity.SetmealDish;
 import com.itcast.reggie.service.CategoryService;
+import com.itcast.reggie.service.SetmealDishService;
 import com.itcast.reggie.service.SetmealService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
@@ -33,6 +35,10 @@ private SetmealService setmealService;
 
 @Autowired
 private CategoryService categoryService;
+
+
+@Autowired
+private SetmealDishService setmealDishService;
 
    @GetMapping("/page")
     public R<Page>  getAll(int page,int pageSize,String name){
@@ -113,5 +119,14 @@ private CategoryService categoryService;
          lambdaQueryWrapper.eq(Setmeal::getCategoryId,categoryId).eq(Setmeal::getStatus,status);
         List<Setmeal> list = setmealService.list(lambdaQueryWrapper);
        return R.success(list);
+    }
+
+    @GetMapping("/dish/{id}")
+    public  R<List<SetmealDish>> list(@PathVariable long id){
+       LambdaQueryWrapper<SetmealDish> lambdaQueryWrapper=new LambdaQueryWrapper<>();
+       lambdaQueryWrapper.eq(SetmealDish::getSetmealId,id);
+        List<SetmealDish> list = setmealDishService.list(lambdaQueryWrapper);
+
+        return R.success(list);
     }
 }
