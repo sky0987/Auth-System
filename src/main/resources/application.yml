@@ -55,6 +55,7 @@ spring:
       #username: root
       #password: xxxx
   #邮件发送接口
+
   mail:
     host: smtp.163.com
     username: sky8923587@163.com
