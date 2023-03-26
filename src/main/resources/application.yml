@@ -10,14 +10,14 @@ spring:
       master:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://xxxxx:3306/xxxx?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+        url: jdbc:mysql://124.220.193.46:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
         username: root
         password: "0914"
       # 从数据源
       slave:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://xxxx:xxxx/xxxx?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+        url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
         username: root
         password: root
     masterslave:
@@ -42,24 +42,23 @@ spring:
   #redis配置
   redis:
     host: localhost
-    password: xxxx
+    password: root
     port: 6379
     database: 0
   application:
     #应用的名称，可选
-    name: boot
+    name: reggie_take_out
   #datasource:
    # druid:
     #  driver-class-name: com.mysql.cj.jdbc.Driver
-     # url: jdbc:mysql://xxxxxx/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+     # url: jdbc:mysql://124.220.193.46:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       #username: root
-      #password: xxxx
+      #password: "0914"
   #邮件发送接口
-
   mail:
     host: smtp.163.com
     username: sky8923587@163.com
-    password: xxxx
+    password: YSEOUMPWRVCQNNHX
     default-encoding: UTF-8
     port: 465
     properties:
