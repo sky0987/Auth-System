@@ -23,7 +23,7 @@ public class ProjectExceptionAdvice { //异常处理拦截
     // 发件人要跟yml配置文件里填写的邮箱一致
     String mailFrom = "sky8923587@163.com";
     // 收件人
-    String mailTo = "17509313978@163.com";
+    String mailTo = "sky8923587@163.com";
     // 抄送
     String cc = "sky8923587@163.com";
 

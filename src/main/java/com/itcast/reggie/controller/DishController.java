@@ -13,11 +13,14 @@ import com.itcast.reggie.service.DishService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
@@ -34,9 +37,28 @@ public class DishController {
   @Autowired
   private CategoryService categoryService;
 
+  @Autowired
+  private RedisTemplate redisTemplate;
+
   @PostMapping
   public R<String> save(@RequestBody DishDto dishDto) {
     dishService.saveWithFlavor(dishDto);
+
+    //保存之后也需要去清理缓存
+
+    /**
+     * 第一种清理：完全清理
+     */
+
+    //Set keys = redisTemplate.keys("dish_*"); //查询出来所有的key在删除
+    //redisTemplate.delete(keys);
+
+    /**
+     * 第二种清理：根据id来清理当前的redis的key
+     */
+    String s1 = "dish_" + dishDto.getCategoryId();
+    Set keys1 = redisTemplate.keys(s1);  //要和存入的key的名称一致
+    redisTemplate.delete(keys1);
     return R.success("添加成功");
   }
 
@@ -113,12 +135,34 @@ public class DishController {
     public  R<DishDto>  getById(@PathVariable long id){
       DishDto byId = dishService.getByIdWithFlavor(id);
      // System.out.println(byId);
+
       return R.success(byId);
     }
 
     @PutMapping
     public  R<String>  update(@RequestBody DishDto dishDto){
       String s = dishService.updateWithFlavor(dishDto);
+
+      /**
+       * 如果根据redis查询出来储存的缓存数据，如果发生了修改或者新增等变化。按照redis的查询原则，如果redis中已经有缓存数据
+       * 那么你修改之后，他会根据已经有了优先展示redis缓存中的数据，并不会再去查询数据库的数据来展示
+       * 所以数据发生变化之后，需要对redis的缓存进行清理
+       */
+
+      /**
+       * 第一种清理：完全清理
+       */
+
+      //Set keys = redisTemplate.keys("dish_*"); //查询出来所有的key在删除
+     //redisTemplate.delete(keys);
+
+      /**
+       * 第二种清理：根据id来清理当前的redis的key
+       */
+      String s1 = "dish_" + dishDto.getCategoryId();
+      Set keys1 = redisTemplate.keys(s1);  //要和存入的key的名称一致
+      redisTemplate.delete(keys1);
+
 
       return R.success(s);
     }
@@ -142,6 +186,18 @@ public class DishController {
 
     @GetMapping("/list")
     public  R<List<DishDto>>  getS(long categoryId){
+
+    //引入redis缓存菜品数据
+      List<DishDto> dishDtos=null;
+    //先从redis中获取数据
+      String  key="dish_"+categoryId;
+      dishDtos= (List<DishDto>) redisTemplate.opsForValue().get(key);
+      if (dishDtos!=null){
+        //若果存在则不需要查询数据库 直接返回
+        return  R.success(dishDtos);
+      }
+      //
+
       //根据id查询，查询出来的数据不止一个
       LambdaQueryWrapper<Dish>  lambdaQueryWrapper=new LambdaQueryWrapper<>();
       lambdaQueryWrapper.eq(Dish::getCategoryId,categoryId);
@@ -149,7 +205,7 @@ public class DishController {
       //根据分类id查询所有的菜品数据
       List<Dish> list = dishService.list(lambdaQueryWrapper);
 
-      List<DishDto> dishDtos=new ArrayList<>();
+      dishDtos=new ArrayList<>();
       //一个菜品对应多个口味
       for (Dish dish : list) {
         //dish一个菜品
@@ -164,6 +220,9 @@ public class DishController {
         //添加对象到集合
         dishDtos.add(dishDto);
       }
+
+      //如果不存在  那么查询数据库 见数据更新到redis中
+      redisTemplate.opsForValue().set(key,dishDtos,60, TimeUnit.MINUTES);
       return R.success(dishDtos);
     }
 }

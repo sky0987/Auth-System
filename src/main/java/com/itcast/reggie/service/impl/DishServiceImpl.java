@@ -27,6 +27,7 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
     private DishFlavorService dishFlavorService;
 
 
+
     /**
      * 新增菜品，同时保存对应的口味数据
      */
@@ -35,7 +36,6 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
     public void saveWithFlavor(DishDto dishDto) {
         //保存菜品的基本信息
         this.save(dishDto);
-
         //获取菜品id
         Long id = dishDto.getId();
         //菜品口味
@@ -72,10 +72,8 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
     @Transactional
     public String updateWithFlavor(DishDto dishDto) {
 
-       this.updateById(dishDto);
-
-
-       //清理数据
+        this.updateById(dishDto);
+       //清理口味数据
        LambdaQueryWrapper<DishFlavor> lambdaQueryWrapper=new LambdaQueryWrapper<>();
        lambdaQueryWrapper.eq(DishFlavor::getDishId,dishDto.getId());
        dishFlavorService.remove(lambdaQueryWrapper);

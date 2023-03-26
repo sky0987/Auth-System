@@ -18,10 +18,13 @@ public class RedisConfig  extends CachingConfigurerSupport {
      */
     @Bean
     public RedisTemplate<Object,Object>  redisTemplate(RedisConnectionFactory connectionFactory){
+        //对key的序列化
         RedisTemplate<Object,Object>  redisTemplate=new RedisTemplate<>();
         redisTemplate.setKeySerializer(new StringRedisSerializer());
         redisTemplate.setHashKeySerializer(new StringRedisSerializer());
         redisTemplate.setConnectionFactory(connectionFactory);
+
+        //对value的序列化
         return  redisTemplate;
 
 
