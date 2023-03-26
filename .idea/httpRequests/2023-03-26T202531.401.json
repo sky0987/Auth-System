@@ -1,0 +1,4 @@
+{
+  "error": "unauthorized",
+  "error_description": "[500 ] during [POST] to [http://localhost:8080/check/code?code=12cB] [CodeClient#checkcode(String)]: [{&quot;timestamp&quot;:&quot;2023-03-26T12:25:31.512+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/check/code&quot;}]"
+}

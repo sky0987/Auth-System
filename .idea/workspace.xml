@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97055dbb-1c40-4f90-84f3-544096bb16ed" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/Library/apache-maven-3.6.1/mvn_repo" />
+        <option name="mavenHome" value="/Library/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2NAq8DdqqejJwjJaJ8qqF8VyMnE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "MyBatisLogPluginindexNum": "212",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/zero/IdeaProjects/Auth-System/auth/src/main/resources/static",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "spring.configuration.checksum": "2eb8f44ac6df747561ddaa46eaa03d05",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/checkCode/src/main/java/com/checkcode/config" />
+      <recent name="$PROJECT_DIR$/auth/src/main/resources" />
+      <recent name="$PROJECT_DIR$/checkCode/src/main/resources/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth/src/main/java/com/auth/dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.auth.controller" />
+      <recent name="com.auth.config" />
+      <recent name="com.auth.util" />
+      <recent name="com.checkcode.controller" />
+      <recent name="com.feignapi.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
+    <configuration name="xc-auth-api | 密码模式，请求AuthParamsDto参数" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="3" requestIdentifier="密码模式，请求AuthParamsDto参数" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-auth-api | 手机验证码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="4" requestIdentifier="手机验证码模式" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-auth-api | 密码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" requestIdentifier="密码模式" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-auth-api | 密码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" requestIdentifier="密码模式" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-auth-api | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-auth-api | 校验jwt令牌" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="3" requestIdentifier="校验jwt令牌" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-auth-api | 密码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="2" requestIdentifier="密码模式" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="checkcode" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.checkcode.CheckCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeiganApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="feigan-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.feignapi.FeiganApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.xc-auth-api | 密码模式，请求AuthParamsDto参数" />
+        <item itemvalue="HTTP Request.xc-auth-api | 校验jwt令牌" />
+        <item itemvalue="HTTP Request.xc-auth-api | #5" />
+        <item itemvalue="HTTP Request.xc-auth-api | 密码模式" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97055dbb-1c40-4f90-84f3-544096bb16ed" name="Changes" comment="" />
+      <created>1679117075015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679117075015</updated>
+      <workItem from="1679117077033" duration="98000" />
+      <workItem from="1679117208645" duration="786000" />
+      <workItem from="1679118148595" duration="11351000" />
+      <workItem from="1679139603223" duration="4523000" />
+      <workItem from="1679218403042" duration="7047000" />
+      <workItem from="1679235006707" duration="592000" />
+      <workItem from="1679282838820" duration="12352000" />
+      <workItem from="1679299091288" duration="81648000" />
+      <workItem from="1679579588654" duration="4966000" />
+      <workItem from="1679624442614" duration="11818000" />
+      <workItem from="1679727303566" duration="35298000" />
+      <workItem from="1679825864609" duration="1031000" />
+      <workItem from="1679827419216" duration="309000" />
+      <workItem from="1679829793707" duration="5616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.alibaba.nacos.api.exception.NacosException" package="com.alibaba.nacos.api.exception" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

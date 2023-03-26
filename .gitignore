@@ -1,0 +1,5 @@
+# Project exclude paths
+/auth/target/
+/checkcode/target/
+/feigan-api/target/
+/gateway/target/

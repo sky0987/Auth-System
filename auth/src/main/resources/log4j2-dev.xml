@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- <filter class="com.example.logback.filter.MyFilter" /> -->
+    <target>System.out</target>
+    <encoder>
+        <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %c [%thread] - %msg%n
+        </pattern>
+    </encoder>
+</appender>
+
+<appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <encoder>
+        <pattern>%date %-5level [%thread] %logger{36} [%file : %line] %msg%n
+            <charset>utf-8</charset>
+        </pattern>
+    </encoder>
+
+    <file>/Users/zero/Desktop/log/data.log</file>
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+        <fileNamePattern>/Users/zero/Desktop/log/logBack%i.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+        <maxFileSize>1MB</maxFileSize>
+    </rollingPolicy>
+</appender>
+
+<root level="ALL">
+    <appender-ref ref="console" />
+    <appender-ref ref="file" />
+</root>
+
+</configuration>

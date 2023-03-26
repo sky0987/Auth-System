@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: checkcode
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+  redis:
+    database: 0
+    host: localhost
+    password: root
+    port: 6379
+  cache:
+    redis:
+      time-to-live: 18000
+

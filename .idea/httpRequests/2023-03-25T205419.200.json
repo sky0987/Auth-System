@@ -1,0 +1,25 @@
+{
+  "aud": [
+    "Auth-System"
+  ],
+  "user_name": "{\"cellphone\":\"18320821614\",\"companyId\":\"1232141425\",\"createTime\":\"2022-09-28T08:32:03\",\"id\":\"52\",\"name\":\"M老师\",\"permissions\":[],\"sex\":\"1\",\"status\":\"\",\"username\":\"t1\",\"utype\":\"101002\"}",
+  "scope": [
+    "all"
+  ],
+  "active": true,
+  "exp": 1679756037,
+  "authorities": [
+    "xc_teachmanager_course_base",
+    "xc_teachmanager_course_del",
+    "xc_teachmanager_course_list",
+    "xc_teachmanager_course_plan",
+    "xc_teachmanager_course",
+    "xc_teachmanager",
+    "xc_teachmanager_course_market",
+    "xc_teachmanager_course_publish",
+    "user:del",
+    "xc_teachmanager_course_add"
+  ],
+  "jti": "791fa4dc-939f-407b-86bf-fd1506ef70e7",
+  "client_id": "cc"
+}

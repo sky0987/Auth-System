@@ -1,0 +1,303 @@
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"32hk"}
+
+<> 2023-03-26T202849.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"32hk"}
+
+<> 2023-03-26T202631.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"12cB"}
+
+<> 2023-03-26T202531.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"12cB"}
+
+<> 2023-03-26T202255.200.json
+
+###
+
+POST http://localhost:8888/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiQXV0aC1TeXN0ZW0iXSwidXNlcl9uYW1lIjoie1wiY2VsbHBob25lXCI6XCIxODMyMDgyMTYxNFwiLFwiY29tcGFueUlkXCI6XCIxMjMyMTQxNDI1XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDIyLTA5LTI4VDA4OjMyOjAzXCIsXCJpZFwiOlwiNTJcIixcIm5hbWVcIjpcIk3ogIHluIhcIixcInBlcm1pc3Npb25zXCI6W10sXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiXCIsXCJ1c2VybmFtZVwiOlwidDFcIixcInV0eXBlXCI6XCIxMDEwMDJcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjc5ODQwMzI5LCJhdXRob3JpdGllcyI6WyJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2Jhc2UiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2RlbCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfbGlzdCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcGxhbiIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2UiLCJ4Y190ZWFjaG1hbmFnZXIiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX21hcmtldCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcHVibGlzaCIsInVzZXI6ZGVsIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9hZGQiXSwianRpIjoiZjRiNjJjYWItZTNlOS00MzM4LWJhZTAtNzBhOTY1NDQ0Yjk0IiwiY2xpZW50X2lkIjoiY2MifQ.zwZO8z1M89IQhoFe4eQFyjDMbUfy2MEACBwOQOjMzq0
+
+<> 2023-03-26T201929.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"12cB"}
+
+<> 2023-03-26T201849.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"rQEX"}
+
+<> 2023-03-26T201803.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"111680"}
+
+<> 2023-03-26T104353.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"063344"}
+
+<> 2023-03-26T104302.401.json
+
+###
+
+GET http://localhost:8080/user/53
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiQXV0aC1TeXN0ZW0iXSwidXNlcl9uYW1lIjoie1wiY2VsbHBob25lXCI6XCIxODMyMDgyMTYxNFwiLFwiY29tcGFueUlkXCI6XCIxMjMyMTQxNDI1XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDIyLTA5LTI4VDA4OjMyOjAzXCIsXCJpZFwiOlwiNTJcIixcIm5hbWVcIjpcIk3ogIHluIhcIixcInBlcm1pc3Npb25zXCI6W10sXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiXCIsXCJ1c2VybmFtZVwiOlwidDFcIixcInV0eXBlXCI6XCIxMDEwMDJcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjc5NzYwOTg4LCJhdXRob3JpdGllcyI6WyJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2Jhc2UiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2RlbCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfbGlzdCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcGxhbiIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2UiLCJ4Y190ZWFjaG1hbmFnZXIiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX21hcmtldCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcHVibGlzaCIsInVzZXI6ZGVsIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9hZGQiXSwianRpIjoiNzA3NjZkM2YtNGU2My00YTZjLWFlMWQtZTI3ZjEyMzg1ZmE4IiwiY2xpZW50X2lkIjoiY2MifQ.6F7E17SeFc99cPzaTANS308JQdQgpiSFL6jaVjcVjIk
+
+<> 2023-03-25T221649.200.txt
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"805014"}
+
+<> 2023-03-25T221628.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"442586"}
+
+<> 2023-03-25T221620.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"l8xK"}
+
+<> 2023-03-25T221528.200.json
+
+###
+
+GET http://localhost:8080/user/53
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiQXV0aC1TeXN0ZW0iXSwidXNlcl9uYW1lIjoie1wiY2VsbHBob25lXCI6XCIxODMyMDgyMTYxNFwiLFwiY29tcGFueUlkXCI6XCIxMjMyMTQxNDI1XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDIyLTA5LTI4VDA4OjMyOjAzXCIsXCJpZFwiOlwiNTJcIixcIm5hbWVcIjpcIk3ogIHluIhcIixcInBlcm1pc3Npb25zXCI6W10sXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiXCIsXCJ1c2VybmFtZVwiOlwidDFcIixcInV0eXBlXCI6XCIxMDEwMDJcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjc5NzU5ODEzLCJhdXRob3JpdGllcyI6WyJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2Jhc2UiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2RlbCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfbGlzdCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcGxhbiIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2UiLCJ4Y190ZWFjaG1hbmFnZXIiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX21hcmtldCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcHVibGlzaCIsInVzZXI6ZGVsIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9hZGQiXSwianRpIjoiYzM2YzMyZmMtYWI4ZS00MmZjLTlkNTAtNGIwMjRhYWZlMGEyIiwiY2xpZW50X2lkIjoiY2MifQ.-LnwL5GzO648dsRG2uVZ4JqcTsolW60c0GZMkuq9_gc
+
+<> 2023-03-25T215906.200.txt
+
+###
+
+GET http://localhost:8080/user/53
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiQXV0aC1TeXN0ZW0iXSwidXNlcl9uYW1lIjoie1wiY2VsbHBob25lXCI6XCIxODMyMDgyMTYxNFwiLFwiY29tcGFueUlkXCI6XCIxMjMyMTQxNDI1XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDIyLTA5LTI4VDA4OjMyOjAzXCIsXCJpZFwiOlwiNTJcIixcIm5hbWVcIjpcIk3ogIHluIhcIixcInBlcm1pc3Npb25zXCI6W10sXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiXCIsXCJ1c2VybmFtZVwiOlwidDFcIixcInV0eXBlXCI6XCIxMDEwMDJcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjc5NzU5ODEzLCJhdXRob3JpdGllcyI6WyJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2Jhc2UiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2RlbCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfbGlzdCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcGxhbiIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2UiLCJ4Y190ZWFjaG1hbmFnZXIiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX21hcmtldCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcHVibGlzaCIsInVzZXI6ZGVsIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9hZGQiXSwianRpIjoiYzM2YzMyZmMtYWI4ZS00MmZjLTlkNTAtNGIwMjRhYWZlMGEyIiwiY2xpZW50X2lkIjoiY2MifQ.-LnwL5GzO648dsRG2uVZ4JqcTsolW60c0GZMkuq9_gc
+
+<> 2023-03-25T215719.200.txt
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"c016"}
+
+<> 2023-03-25T215653.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"PFTh"}
+
+<> 2023-03-25T215611.401.json
+
+###
+
+POST http://localhost:8888/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiQXV0aC1TeXN0ZW0iXSwidXNlcl9uYW1lIjoie1wiY2VsbHBob25lXCI6XCIxODMyMDgyMTYxNFwiLFwiY29tcGFueUlkXCI6XCIxMjMyMTQxNDI1XCIsXCJjcmVhdGVUaW1lXCI6XCIyMDIyLTA5LTI4VDA4OjMyOjAzXCIsXCJpZFwiOlwiNTJcIixcIm5hbWVcIjpcIk3ogIHluIhcIixcInBlcm1pc3Npb25zXCI6W10sXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiXCIsXCJ1c2VybmFtZVwiOlwidDFcIixcInV0eXBlXCI6XCIxMDEwMDJcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjc5NzU2MDM3LCJhdXRob3JpdGllcyI6WyJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2Jhc2UiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2RlbCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfbGlzdCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcGxhbiIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2UiLCJ4Y190ZWFjaG1hbmFnZXIiLCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX21hcmtldCIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfcHVibGlzaCIsInVzZXI6ZGVsIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9hZGQiXSwianRpIjoiNzkxZmE0ZGMtOTM5Zi00MDdiLTg2YmYtZmQxNTA2ZWY3MGU3IiwiY2xpZW50X2lkIjoiY2MifQ.VSdwXPO1jN6mzIv4SqXfCsnAwWVaS2zD1CgjFWiX4h8
+
+<> 2023-03-25T205419.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"442586"}
+
+<> 2023-03-25T205357.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T205337.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T204236.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T201630.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T201408.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T201256.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"PFTh"}
+
+<> 2023-03-25T201004.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T200949.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T200722.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T200346.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T200145.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"PFTh"}
+
+<> 2023-03-25T195939.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T195859.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T195247.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"TFXg"}
+
+<> 2023-03-25T195239.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T195149.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"sms","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T195117.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111",authType":"password","cellphone":"18320821614","checkcode":"999999"}
+
+<> 2023-03-25T195046.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","cellphone":"18320821614",authType":"password","checkcode":"999999"}
+
+<> 2023-03-25T195023.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","cellphone":"18320821614",authType":"sms","checkcode":"999999"}
+
+<> 2023-03-25T194724.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","cellphone":"18320821614",authType":"sms","checkcode":"999999"}
+
+<> 2023-03-25T194302.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"","password":"","cellphone":"18320821614",authType":"sms","checkcode":"999999"}
+
+<> 2023-03-25T194235.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"","password":"","cellphone":"18320821614",authType":"sms","checkcode":"999999"}
+
+<> 2023-03-25T194116.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"TFXg"}
+
+<> 2023-03-25T194038.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"uE1o"}
+
+<> 2023-03-25T193949.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"","password":"","cellphone":"18320821614",authType":"sms","checkcode":"999999"}
+
+<> 2023-03-25T193915.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"cellphone":"18320821614",authType":"sms","checkcode":"999999","password":""}
+
+<> 2023-03-25T193819.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"cellphone":"18320821614",authType":"sms","checkcode":"999999","password":""}
+
+<> 2023-03-25T193708.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"cellphone":"18320821614",authType":"sms","checkcode":"999999","password":""}
+
+<> 2023-03-25T193700.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"cellphone":"18320821614",authType":"sms","checkcode":"999999","password":""}
+
+<> 2023-03-25T193633.401.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"uE1o"}
+
+<> 2023-03-25T193436.200.json
+
+###
+
+POST http://localhost:8888/oauth/token?client_id=cc&client_secret=cc&grant_type=password&username={"username":"t1","password":"111111","authType":"password","checkcode":"bdlw"}
+
+<> 2023-03-25T193404.401.json
+
+###
+
